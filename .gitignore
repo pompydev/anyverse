@@ -5,6 +5,12 @@
 # cargo
 /target/
 
+# dioxus
+/assets/style.css
+
+# bun
+/node_modules/
+
 # rustfmt
 **/*.rs.bk
 

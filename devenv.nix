@@ -25,6 +25,12 @@ in
   };
 
   languages = {
+    javascript = {
+      enable = true;
+      bun.enable = true;
+      bun.install.enable = true;
+    };
+
     # https://devenv.sh/languages/rust/
     rust = {
       enable = true;
