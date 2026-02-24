@@ -1,0 +1,25 @@
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+name: Build
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # https://devenv.sh/integrations/github-actions
+
+      - uses: cachix/install-nix-action@v31
+
+      - uses: cachix/cachix-action@v16
+        with:
+          name: devenv
+
+      - run: nix profile install nixpkgs#devenv
+
+      - run: dx build
+        shell: devenv shell bash -- -e {0}

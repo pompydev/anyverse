@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dioxuslabs.dioxus",
+    "esbenp.prettier-vscode",
+    "fill-labs.dependi",
+    "github.vscode-github-actions",
+    "rust-lang.rust-analyzer",
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml",
+
+    // nix
+    "jnoortheen.nix-ide",
+    "mkhl.direnv"
+  ]
+}

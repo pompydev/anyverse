@@ -1,0 +1,12 @@
+# nix
+.direnv*
+.devenv*
+
+# cargo
+/target/
+
+# rustfmt
+**/*.rs.bk
+
+# MacOS
+.DS_Store

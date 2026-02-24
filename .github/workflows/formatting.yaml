@@ -1,0 +1,16 @@
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+name: Formatting
+jobs:
+  formatting:
+    name: Formatting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: oven-sh/setup-bun@v2
+
+      - run: bunx prettier -l .
