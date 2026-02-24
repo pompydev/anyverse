@@ -38,7 +38,18 @@ in
       version = "1.93.1";
       targets = [
         "wasm32-unknown-unknown"
+
         "x86_64-unknown-linux-gnu"
+
+        "aarch64-linux-android"
+        "i686-linux-android"
+        "armv7-linux-androideabi"
+        "x86_64-linux-android"
+
+        "x86_64-apple-ios"
+        "aarch64-apple-ios"
+        "aarch64-apple-ios-sim"
+        "aarch64-apple-darwin"
       ];
     };
   };
