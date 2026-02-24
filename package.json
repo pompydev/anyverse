@@ -1,8 +1,11 @@
 {
   "scripts": {
     "dev": "concurrently --names 'Tailwind,  Dioxus' -c blue,green 'bun run dev:tw' 'bun run dev:dx'",
-    "dev:tw": "bunx @tailwindcss/cli -i ./src/style.css -o ./assets/style.css --watch --map",
-    "dev:dx": "dx serve --platform desktop"
+    "dev:tw": "bunx @tailwindcss/cli -i ./src/style.css -o ./assets/style.css --map --watch",
+    "dev:dx": "dx serve --platform desktop",
+    "build": "bun run build:tw && bun run build:dx",
+    "build:tw": "bunx @tailwindcss/cli -i ./src/style.css -o ./assets/style.css --map",
+    "build:dx": "dx build --release"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.1",
