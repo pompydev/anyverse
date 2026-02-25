@@ -71,6 +71,8 @@
     "nixfmt",
     "nixos",
     "nixpkgs",
+    "noopener",
+    "noreferrer",
     "numtide",
     "oninput",
     "oxalica",
