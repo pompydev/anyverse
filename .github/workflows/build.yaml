@@ -21,5 +21,8 @@ jobs:
 
       - run: nix profile install nixpkgs#devenv
 
+      - run: bun run init
+        shell: devenv shell bash -- -e {0}
+
       - run: bun run build
         shell: devenv shell bash -- -e {0}
