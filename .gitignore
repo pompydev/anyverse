@@ -1,3 +1,6 @@
+# scripts/init.ts
+/assets/fonts/
+
 # nix
 .direnv*
 .devenv*

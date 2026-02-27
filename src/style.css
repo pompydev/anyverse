@@ -1,10 +1,12 @@
 @import "tailwindcss";
 @source "./src/**/*.{rs,html,css}";
 
+@theme {
+  --font-sans: "Pretendard GOV Variable";
+}
+
 body {
   @apply bg-gray-950 text-gray-50 min-h-screen;
-
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main {

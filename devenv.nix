@@ -2,6 +2,7 @@
 
 let
   tooling = with pkgs; [
+    unzip
     dioxus-cli
 
     nixd

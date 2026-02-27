@@ -26,6 +26,11 @@
     "rust": "html"
   },
 
+  // Bun
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   // misc
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,6 +84,8 @@
     "pkgs",
     "pname",
     "pompydev",
+    "pretendard",
+    "pretendardvariable",
     "stylesheet",
     "webkitgtk"
   ]
