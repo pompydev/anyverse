@@ -4,7 +4,6 @@
 
   "oxc.enable": true,
   "oxc.fmt.configPath": ".oxfmtrc.json",
-  "oxc.path.oxfmt": "node_modules/.bin/oxfmt",
 
   "files.watcherExclude": {
     "**/routeTree.gen.ts": true
