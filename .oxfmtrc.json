@@ -1,0 +1,36 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+
+  "ignorePatterns": ["src/routeTree.gen.ts"],
+
+  "printWidth": 120,
+  "proseWrap": "always",
+  "useTabs": false,
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": false,
+
+  "sortImports": {
+    "groups": [
+      ["value-builtin", "value-external"],
+      ["value-parent", "value-sibling", "value-index", "value-internal"],
+      "unknown",
+      ["type-parent", "type-sibling", "type-index", "type-internal", "type-import"]
+    ]
+  },
+  "sortTailwindcss": {
+    "stylesheet": "src/styles.css",
+    "functions": ["clsx", "cn"],
+    "preserveWhitespace": false
+  },
+
+  "overrides": [
+    {
+      "files": ["**.md", "**.json", "**.jsonc", "**.yaml", "**.yml"],
+      "options": {
+        "tabWidth": 2,
+        "trailingComma": "none" // https://github.com/oxc-project/oxc-vscode/issues/140#issuecomment-4046299795
+      }
+    }
+  ]
+}

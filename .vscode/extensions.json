@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "oxc.oxc-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "bradlc.vscode-tailwindcss",
+    "hverlin.mise-vscode",
+    "github.vscode-github-actions"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [120],
+
+  "oxc.enable": true,
+  "oxc.fmt.configPath": ".oxfmtrc.json",
+  "oxc.path.oxfmt": "node_modules/.bin/oxfmt",
+
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "search.exclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  "[markdown]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  // cSpell
+  "cSpell.words": [
+    "anki",
+    "Anydraw",
+    "Anyfana",
+    "Anyicon",
+    "Anytype",
+    "Anyverse",
+    "Avalonia",
+    "Dioxus",
+    "excalidraw",
+    "lightningcss",
+    "oxfmt",
+    "Pretendard",
+    "pretendardvariable",
+    "self-hostable",
+    "stylesheet",
+    "tanstack",
+    "tauri"
+  ]
+}
